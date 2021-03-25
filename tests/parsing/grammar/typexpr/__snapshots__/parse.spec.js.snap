@@ -185,7 +185,8 @@ module type Conjunctive  =
         -> unit
   end
 type nonrec t = [ s]
-type nonrec t = [ ListStyleType.t]"
+type nonrec t = [ ListStyleType.t]
+type nonrec number = [ \`1  | \`42  | \`4244 ]"
 `;
 
 exports[`tuple.res 1`] = `
